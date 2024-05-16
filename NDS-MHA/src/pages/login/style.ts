@@ -13,12 +13,24 @@ export const Background = styled.body`
         position: absolute;
         bottom: 0;
     }
+
+    @media screen and (max-width: 845px) {
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
 `
 
 export const Container = styled.div`
     padding: 6rem 2rem;
 
     background-color: ${(props) => props.theme['white']};
+
+    @media screen and (max-width: 845px) {
+        padding: 3rem 0;
+        height: 100vh;
+    }
+    
 `
 
 export const Header = styled.header`
@@ -31,6 +43,10 @@ export const Header = styled.header`
     font-weight: 600;
 
     color: ${(props) => props.theme['green-dark']};
+
+    @media screen and (max-width: 845px) {
+        margin-bottom: 0;
+    }
 `
 
 export const Content = styled.div`
@@ -38,6 +54,11 @@ export const Content = styled.div`
     justify-content: space-between;
     
     width: 50rem;
+
+    @media screen and (max-width: 845px) {
+        flex-direction: column;
+    
+    }
 `
 
 export const ContentLeft = styled.div`
@@ -50,6 +71,15 @@ export const ContentLeft = styled.div`
 
     & img{
         width: 21.9rem;
+    }
+
+    @media screen and (max-width: 845px) {
+        border-right: none; 
+        height: 186px;
+
+        img{
+            width: 17rem;
+        }
     }
 `
 
@@ -65,6 +95,12 @@ export const ContentRight = styled.div`
         flex-direction: column;
         align-items: end;
     }
+
+    @media screen and (max-width: 845px) {
+        form{
+            align-items: center;
+        }
+    }
 `
 
 export const Inputs = styled.div`
@@ -72,6 +108,10 @@ export const Inputs = styled.div`
     flex-direction: column;
     gap: .5rem;
     margin-bottom: 1.5rem;
+
+    @media screen and (max-width: 845px){
+        gap: 1.5rem;
+    }
 `
 
 export const Alternatives = styled.div`
@@ -89,6 +129,12 @@ export const Alternatives = styled.div`
     & p{
         cursor: pointer;
     }
+
+    @media screen and (max-width: 845px){
+        width: 21rem;
+        margin-top: 2.2rem;
+        gap: 1rem;
+    }    
 `
 
 export const Footer = styled.footer`
@@ -100,5 +146,5 @@ export const Footer = styled.footer`
     margin-bottom: .5rem;
 
     font-size: 12px;
-    color: ${(props) => props.theme['green-dark']}
+    color: ${(props) => props.theme['green-dark']};
 `

@@ -8,7 +8,7 @@ export const ContainerInput = styled.div`
     /* margin-bottom: .5rem; */
 
     & label{
-        font-weight: 500;
+        font-weight: 700;
         color: ${(props) => props.theme['green-dark']};
     }
 
@@ -27,5 +27,15 @@ export const ContainerInput = styled.div`
     & ::placeholder{
         text-align: center;
         color: ${(props) => props.theme['white']};
+    }
+
+    @media screen and (max-width: 845px) {
+        flex-direction: column;
+        gap: 0;
+
+        input{
+            width: 20rem;
+            padding: 10px 10px;
+        }
     }
 `

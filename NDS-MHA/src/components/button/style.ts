@@ -11,5 +11,9 @@ export const Button = styled.button`
     font-weight: 600;
     border: 2.3px solid ${(props) => props.theme['green-light']};
 
+    @media screen and (max-width: 845px) {
+       width: 20rem;
+       padding: 10px;
+    }
 `
 
