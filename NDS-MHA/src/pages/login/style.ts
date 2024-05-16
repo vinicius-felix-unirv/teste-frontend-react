@@ -1,0 +1,8 @@
+import styled from 'styled-components'
+
+export const Container = styled.body`
+
+
+    /* background-color: red; */
+
+`
