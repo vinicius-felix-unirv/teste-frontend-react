@@ -1,0 +1,11 @@
+.pageBackground {
+  background-color: #D9D9D9;
+  min-height: 100vh;
+
+}
+
+@media(max-width: 845px) {
+  .pageBackground {
+    background-color:#FFFFFF;
+  }
+}

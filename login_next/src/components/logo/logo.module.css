@@ -1,0 +1,17 @@
+.logoContainer{
+    border-right: 3px solid #065F44;
+    width: 20rem;
+    height: 15rem;
+    padding: 0px 10px 5px;
+}
+
+@media (max-width: 845px) {
+    .logoContainer{
+        display: flex;
+        border: none;
+        width: 15rem;
+        height: 10rem;
+        margin-left: 5rem;
+    }
+
+}

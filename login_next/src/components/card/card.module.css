@@ -1,0 +1,14 @@
+.cardContainer {
+  margin-top: 5rem;
+  width: 45rem;
+  height: 30rem;
+  background-color: #FFFFFF;
+}
+
+@media(max-width: 845px){
+  .cardContainer { 
+    width: 25rem;
+    margin-top: 2rem;
+    height: 47rem;
+  }
+}
