@@ -1,0 +1,31 @@
+.footerParagraph {
+    margin: 0;
+    bottom: 0;
+    position: relative;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #065F44;
+}
+
+@media (min-width: 846px) {
+    .footerParagraph {
+        font-size: 14px;
+    }
+
+    .footerDiv {
+        height: 1.8rem;
+        margin-top: auto;
+    }
+}
+
+@media (max-width: 845px) {
+    .footerParagraph {
+        font-size: 0.76rem;
+    }
+
+    .footerDiv {
+        margin-top: 8.4rem;
+        clear: both;
+    }
+}
+
