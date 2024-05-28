@@ -1,0 +1,9 @@
+export { HeaderDesktop } from './HeaderDesktop';
+export { ImageDesktop } from './ImageDesktop';
+export { PartitionDesktop } from './PartitionDesktop';
+export { ImputEmailDesktop } from './ImputEmailDesktop';
+export { LabelUserDesktop } from './LabelUserDesktop';
+export { LabelPasswordDesktop } from './LabelPasswordDesktop';
+export { ImputPasswordDesktop } from './ImputPasswordDesktop';
+export { ButtonEnterDesktop } from './ButtonEnterDesktop';
+export { FooterDesktop } from './FooterDesktop';

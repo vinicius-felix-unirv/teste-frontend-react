@@ -1,0 +1,10 @@
+export { HeaderMobile } from './HeaderMobile';
+export { ImageMobile } from './ImageMobile';
+export { ImputEmailMobile } from './ImputEmailMobile';
+export { ImputPasswordMobile } from './ImputPasswordMobile';
+export { LabelUserMobile } from './LabelUserMobile';
+export { LabelPasswordMobile } from './LabelPasswordMobile';
+export { ButtonEnterMobile } from './ButtonEnterMobile';
+export { RegisterNewUserMobile } from './RegisterNewUserMobile';
+export { ForgotPasswordMobile } from './ForgotPasswordMobile';
+export { FooterMobile } from './FooterMobile';
